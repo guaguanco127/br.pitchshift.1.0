@@ -20,15 +20,15 @@ These files were created with Max/MSP version 8.5.6.
 
 ## <a name="About"></a>About
 
-This is a spectral Max/MSP abstraction, and Ableton Max for Live device that allows the user to transpose the pitch of a stereo signal up to two octave and down to two octaves. Good for harmonization and microtonal pitchshifting. Currently works in any sample rate or bit depth.
+This is a spectral Max/MSP abstraction, and Ableton Max for Live device that allows the user to transpose the pitch of a stereo signal up to two octaves and down to two octaves. Good for harmonization and microtonal pitch-shifting. Currently works in any sample rate or bit depth.
 
-This effect introduces a latency of 2048 samples. For a latency free version of a pitchshifter (that introduces some artifacts) use [br.whammy.1.0](https://github.com/guaguanco127/br.whammy.1.0) instead.  
+This effect introduces a latency of 2048 samples. For a latency-free version of a pitch-shifter (that introduces some artifacts) use [br.whammy.1.0](https://github.com/guaguanco127/br.whammy.1.0) instead.  
 
 Only works as an abstraction or a device. External objects and RNBO not available yet. An extremely important file is included in each folder called "solofreeze.pfft" do not move or delete this file until you follow all instructions for installation. 
-  
-**On/Off:** Turn the effect on or bypass
 
-**Pitchshift:** Pitchshift Factor in steps. -24. to 24. Default 0. Microtonal pitchshifting is possible by using numbers in between integers. For example, -0.50 is pitchshifted down by a quarter tone.   
+**On/Off:** Turn the effect on or bypass
+  
+**Pitchshift:** Pitch-shift Factor in steps. -24. to 24. Default 0. Microtonal pitch-shifting is possible by using numbers in between integers. For example, -0.50 is pitchshifted down by a quarter tone.   
 
 **Dry/Wet:** The amount of dry and wet signal between 0. and 100. The default is 100. The wet signal is latent by 2048 samples. 
 
@@ -47,7 +47,7 @@ By saving your logic in an abstraction, you can create modules that can be used 
 
 3. In the Max patch you are using, create an object called br.pitchshift.abs.1.0 
 
-4. Alternatively, you could also create this inside of a bpatcher object and use all of the preset UI objects that are featured inside of the object. To do this, create a bpatcher object. Then, go insie of its inspector, select "choose" next to "Patcher File" and select the br.pitchshift.maxpat located within the same folder as your prject. 
+4. Alternatively, you could also create this inside of a bpatcher object and use all of the preset UI objects featured inside the abstraction. To do this, create a bpatcher object. Then, go insie of its inspector, select "choose" next to "Patcher File" and select the br.pitchshift.maxpat located within the same folder as your project. 
 
 
 ## <a name="Use"></a>How To Use
@@ -62,6 +62,10 @@ The 5th inlet is the amount of dry and wet signal between 0. and 100. The defaul
 
 Double click on the object and you can see inside of the object. This way you can study how it was built. 
     
+
+
+
+
 
 
 
