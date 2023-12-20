@@ -26,6 +26,8 @@ This effect introduces a latency of 2048 samples. For a latency free version of 
 
 Only works as an abstraction or a device. External objects and RNBO not available yet. An extremely important file is included in each folder called "solofreeze.pfft" do not move or delete this file until you follow all instructions for installation. 
   
+**On/Off:** Turn the effect on or bypass
+
 **Pitchshift:** Pitchshift Factor in steps. -24. to 24. Default 0. Microtonal pitchshifting is possible by using numbers in between integers. For example, -0.50 is pitchshifted down by a quarter tone.   
 
 **Dry/Wet:** The amount of dry and wet signal between 0. and 100. The default is 100. The wet signal is latent by 2048 samples. 
@@ -45,13 +47,18 @@ By saving your logic in an abstraction, you can create modules that can be used 
 
 3. In the Max patch you are using, create an object called br.pitchshift.abs.1.0 
 
+4. Alternatively, you could also create this inside of a bpatcher object and use all of the preset UI objects that are featured inside of the object. To do this, create a bpatcher object. Then, go insie of its inspector, select "choose" next to "Patcher File" and select the br.pitchshift.maxpat located within the same folder as your prject. 
+
+
 ## <a name="Use"></a>How To Use
 
 The first two inlets are for the left and the right stereo signals. 
 
-The 3rd inlet is the Pitchshift Factor in steps. -24. to 24. Default 0. Microtonal pitchshifting is possible by using numbers in between integers. For example, -0.50 is pitchshifted down by a quarter tone. 
+The 3rd inlet turns the effect on, or bypasses the signal. It takes an integer of 0 or 1. The default is 1. 
 
-The 4th inlet is the amount of dry and wet signal between 0. and 100. The default is 100. The wet signal is latent by 2048 samples. 
+The 4rd inlet is the Pitchshift Factor in steps. -24. to 24. Default 0. Microtonal pitchshifting is possible by using numbers in between integers. For example, -0.50 is pitchshifted down by a quarter tone. 
+
+The 5th inlet is the amount of dry and wet signal between 0. and 100. The default is 100. The wet signal is latent by 2048 samples. 
 
 Double click on the object and you can see inside of the object. This way you can study how it was built. 
     

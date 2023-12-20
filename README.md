@@ -29,6 +29,8 @@ This is a spectral Max/MSP abstraction, and Ableton Max for Live device that all
 This effect introduces a latency of 2048 samples. For a latency free version of a pitchshifter (that introduces some artifacts) use [br.whammy.1.0](https://github.com/guaguanco127/br.whammy.1.0) instead.  
 
 Only works as an abstraction or a device. External objects and RNBO not available yet. An extremely important file is included in each folder called "solofreeze.pfft" do not move or delete this file until you follow all instructions for installation. 
+
+**On/Off:** Turn the effect on or bypass
   
 **Pitchshift:** Pitchshift Factor in steps. -24. to 24. Default 0. Microtonal pitchshifting is possible by using numbers in between integers. For example, -0.50 is pitchshifted down by a quarter tone.   
 
