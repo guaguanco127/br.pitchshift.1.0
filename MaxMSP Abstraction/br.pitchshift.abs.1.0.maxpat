@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -350.0, -1043.0, 1080.0, 963.0 ],
+		"openrect" : [ -350.0, -1043.0, 60.0, 154.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,7 +31,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
+		"devicewidth" : 60.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
@@ -65,6 +65,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-21",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -75,6 +76,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 92.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activeneedlecolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_initial" : [ 100.0 ],
 							"parameter_initial_enable" : 1,
@@ -87,12 +96,14 @@
 
 					}
 ,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "live.dial[1]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-20",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -103,6 +114,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 40.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activeneedlecolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
@@ -116,6 +135,7 @@
 
 					}
 ,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "live.dial"
 				}
 
@@ -1035,6 +1055,24 @@
 					}
 ,
 					"text" : "p Pitchshifter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-11",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 944.333333373069763, 442.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -0.5, 0.0, 301.87837815284729, 187.0 ],
+					"proportion" : 0.39,
+					"rounded" : 0
 				}
 
 			}
